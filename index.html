@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enBienestar Contigo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto flex justify-content-center items-center">
+            <div class="flex items-center">
+                <img src="Logo enBienestar Contigo 3.png" alt="Logo enBienestar Contigo" class="mr-2 h-48 w-48">
+                <a href="#" class="text-xl font-bold font-italic hidden"><span style="color:#4472C4;">en</span><span style="color:#548235;">Bienestar</span><span style="color:#4472C4;"> Contigo</span></a>
+            </div>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="#servicios" class="hover:text-green-500 transition duration-300">Servicios</a></li>
+                    <li><a href="#contacto" class="hover:text-green-500 transition duration-300">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-white py-16 md:py-24">
+        <div class="container mx-auto text-center">
+            <div class="relative">
+                <label for="imageUpload" class="cursor-pointer">
+                    <img id="yogaImage" src="fi_couple_stretching_stairs.webp" alt="Personas Activas" class="rounded-lg shadow-lg w-full max-w-3xl mx-auto">
+                     <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                </label>
+                <h1 class="text-4xl md:text-5xl font-bold text-blue-500 mt-2">Alcanza tu Bienestar Integral</h1>
+                <p class="text-lg md:text-xl text-gray-700 mt-4 max-w-2xl mx-auto">Te acompañamos en tu camino hacia un estilo de vida más activo y saludable con asesoría personalizada en alimentación, ejercicio y suplementación consciente.</p>
+                <a href="#contacto" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full mt-8 transition duration-300 inline-block">Descubre Cómo Empezar Hoy</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-16 md:py-24">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">Tu Viaje Hacia la Salud Comienza Aquí</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto">En enBienestar Contigo creemos que cada persona es única. Por eso, diseñamos planes a tu medida, combinando una nutrición inteligente, actividad física que disfrutes y, si es necesario, una suplementación adecuada para potenciar tus resultados y mejorar tu calidad de vida.</p>
+            <div class="flex justify-center mt-12">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="flex flex-col items-center">
+                        <div style="background-color:#548235; width: 50px; height: 50px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                            <span style="color:white; font-size: 1.2em;">1</span>
+                        </div>
+                        <p class="text-md font-medium mt-2">Nutrición Consciente</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                         <div style="background-color:#0E839D; width: 50px; height: 50px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                            <span style="color:white; font-size: 1.2em;">2</span>
+                        </div>
+                        <p class="text-md font-medium mt-2">Movimiento Inteligente</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                         <div style="background-color:#4472C4; width: 50px; height: 50px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                            <span style="color:white; font-size: 1.2em;">3</span>
+                        </div>
+                        <p class="text-md font-medium mt-2">Suplementación Estratégica</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 py-16 md:py-24" id="servicios">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-12">Asesoría Personalizada Basada en Tres Pilares</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div style="background-color:#548235; width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 1rem; display: flex; justify-content: center; align-items: center;">
+                         <span style="color:white; font-size: 2em;">1</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold" style="color:#548235;">Nutrición Consciente</h3>
+                    <p class="text-gray-700 mb-4">Planes de alimentación adaptados a tus necesidades y gustos. Aprende a comer saludable sin restricciones extremas.</p>
+                     <label for="imageUpload1" class="cursor-pointer mt-4">
+                        <img id="nutritionImage" src="pngtree-happy-couple-cooking-together-dieting-healthy-food-healthy-together-person-photo-picture-image_4224912.jpg" alt="Imagen Nutrición" class="rounded-lg shadow-md w-full max-w-xs mx-auto">
+                        <input type="file" id="imageUpload1" accept="image/*" style="display: none;">
+                    </label>
+                </div>
+                <div class="text-center">
+                    <div style="background-color:#0E839D; width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 1rem; display: flex; justify-content: center; align-items: center;">
+                        <span style="color:white; font-size: 2em;">2</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold" style="color:#0E839D;">Movimiento Inteligente</h3>
+                    <p class="text-gray-700 mb-4">Rutinas de ejercicio efectivas y motivadoras, desde casa o en el gimnasio. Encuentra la actividad que te apasione.</p>
+                    <label for="imageUpload2" class="cursor-pointer mt-4">
+                        <img id="movementImage" src="fi_couple_running_stairs.webp" alt="Imagen Movimiento" class="rounded-lg shadow-md w-full max-w-xs mx-auto">
+                        <input type="file" id="imageUpload2" accept="image/*" style="display: none;">
+                    </label>
+                </div>
+                <div class="text-center">
+                    <div style="background-color:#4472C4; width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 1rem; display: flex; justify-content: center; align-items: center;">
+                        <span style="color:white; font-size: 2em;">3</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold" style="color:#4472C4;">Suplementación Estratégica</h3>
+                    <p class="text-gray-700 mb-4">Guía experta sobre el uso responsable y efectivo de suplementos nutricionales para complementar tu dieta y alcanzar tus metas.</p>
+                    <label for="imageUpload3" class="cursor-pointer mt-4">
+                        <img id="supplementImage" src="li_woman_pouring_shake_0184.webp" alt="Imagen Suplementación" class="rounded-lg shadow-md w-full max-w-xs mx-auto">
+                        <input type="file" id="imageUpload3" accept="image/*" style="display: none;">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-16 md:py-24" id="sobre-nosotros">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-12">Comenzar es Fácil</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div style="background-color:#548235; width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 1rem; display: flex; justify-content: center; align-items: center;">
+                         <span style="color:white; font-size: 2em;">1</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Evaluación Inicial</h3>
+                    <p class="text-gray-700">Conversamos para conocer tus metas, hábitos y punto de partida.</p>
+                </div>
+                <div class="text-center">
+                    <div style="background-color:#0E839D; width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 1rem; display: flex; justify-content: center; align-items: center;">
+                        <span style="color:white; font-size: 2em;">2</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Plan Personalizado</h3>
+                    <p class="text-gray-700">Diseñamos un plan detallado de alimentación, ejercicio y/o suplementación para ti.</p>
+                </div>
+                <div class="text-center">
+                    <div style="background-color:#4472C4; width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 1rem; display: flex; justify-content: center; align-items: center;">
+                        <span style="color:white; font-size: 2em;">3</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Seguimiento y Ajustes</h3>
+                    <p class="text-gray-700">Te acompañamos continuamente, ajustando el plan según tu progreso y sensaciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 py-16 md:py-24">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-12">Historias de Bienestar</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <p class="text-gray-700 italic mb-4">"¡Este programa cambió mi vida! Me siento con más energía y he logrado mis metas de salud de manera sostenible."</p>
+                    <p class="font-semibold text-gray-800">- Ana García</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <p class="text-gray-700 italic mb-4">"La asesoría personalizada realmente hace la diferencia. Me dieron las herramientas para entender mi cuerpo y tomar mejores decisiones."</p>
+                    <p class="font-semibold text-gray-800">- Carlos Rodríguez</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <p class="text-gray-700 italic mb-4">"El enfoque en el bienestar integral es justo lo que necesitaba. No solo he mejorado físicamente, sino también mentalmente."</p>
+                    <p class="font-semibold text-gray-800">- Laura Martínez</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-16 md:py-24" id="contacto">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-blue-500 mb-8">¿Listo para Invertir en Tu Salud?</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-8">Da el primer paso hacia una vida más plena y energética. Agenda una sesión de evaluación gratuita y descubre cómo podemos ayudarte.</p>
+            <a href="#" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full mt-8 transition duration-300 inline-block">Solicita tu Evaluación Gratuita</a>
+             <p class="text-gray-600 mt-4">O escríbenos a: <a href="mailto:enbienestar@gmail.com" class="text-blue-500 hover:underline">enbienestar@gmail.com</a></p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-100 py-6">
+        <div class="container mx-auto text-center text-gray-600">
+            <p>© 2024 enBienestar Contigo. Todos los derechos reservados.</p>
+            <p class="mt-2">NCYellow LLC - 4300 Ridgecrest Dr SE, Suite L, Río Rancho NM 87124, United States</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling para enlaces internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        const imageUpload = document.getElementById('imageUpload');
+        const yogaImage = document.getElementById('yogaImage');
+
+        imageUpload.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = (e) => {
+                yogaImage.src = e.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        });
+
+        const imageUpload1 = document.getElementById('imageUpload1');
+        const nutritionImage = document.getElementById('nutritionImage');
+
+        imageUpload1.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = (e) => {
+                nutritionImage.src = e.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        });
+
+        const imageUpload2 = document.getElementById('imageUpload2');
+        const movementImage = document.getElementById('movementImage');
+
+        imageUpload2.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = (e) => {
+                movementImage.src = e.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        });
+
+        const imageUpload3 = document.getElementById('imageUpload3');
+        const supplementImage = document.getElementById('supplementImage');
+
+        imageUpload3.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = (e) => {
+                supplementImage.src = e.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        });
+    </script>
+</body>
+</html>

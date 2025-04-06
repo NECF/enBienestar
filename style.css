@@ -1,0 +1,176 @@
+bplist00�_WebMainResource�	
+_WebResourceFrameName^WebResourceURL_WebResourceTextEncodingName_WebResourceData_WebResourceMIMETypeP_file:///index.htmlUutf-8O'�<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1">body {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'Lato', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #333; /* Color de texto por defecto */</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 1rem 0;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header .container {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width: 1200px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0 1rem;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header .logo {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>align-items: center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header .logo img {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-right: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>height: 3rem; /* Altura del logo */</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header .logo a {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #333;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header nav ul {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>list-style: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header nav ul li {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-left: 2rem;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header nav ul li a {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #555;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight: normal;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition: color 0.3s ease;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header nav ul li a:hover {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #007bff; /* Color azul al pasar el ratón */</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">section {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 4rem 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">section h1 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 2.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #2c3e50; /* Color de encabezado */</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">section p {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #666;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 2rem;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.cta-button {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #007bff; /* Color de botón */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 0.75rem 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 0.375rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>transition: background-color 0.3s ease;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.cta-button:hover {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #0056b3; /* Color de botón al pasar el ratón */</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.services-grid {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>gap: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 2rem;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.service-card {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 0.375rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.service-card h3 {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #2c3e50;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.service-card p {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #666;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">footer {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-color: #f8f9fa;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 1rem 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color: #888;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 4rem;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">/* Estilos para hágalos receptivos */</p>
+<p class="p1">@media (max-width: 768px) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>header nav {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>header .container {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>header .logo {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin-bottom: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>section h1 {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>section p {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.services-grid {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>grid-template-columns: 1fr;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1">}</p>
+<p class="p1">&lt;/style&gt;</p>
+</body>
+</html>
+Ytext/html    ( ? N l ~ � � � �(w                           (�
